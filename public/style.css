@@ -1,0 +1,97 @@
+body {
+}
+
+#main {
+	width: 60%;
+	margin: 0 auto;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+#logo {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 2em;
+}
+
+a {
+	cursor: pointer; 
+	cursor: hand;
+	margin: 10px;
+}
+
+#youeat img, #ieat img, #hamburger img, #poop img {
+	border: solid 1px black;
+	border-radius: 5px;
+	height: 48px;
+	width: 48px;
+}
+
+#user, #op {
+	overflow: hidden;
+}
+
+#message_box {
+	width: 100%; 
+	height: 100px; 
+	margin: 0 0 20px 0; 
+	border: solid 5px #6495ED; 
+	border-radius:5px; 
+	overflow-y: scroll;
+	margin: 0 auto;
+}
+
+#boxandbuttons, #play_buttons, #controls, #logo  {
+	text-align: center;
+}
+
+
+#players {
+	font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 100%;
+	text-align: center;
+}
+
+#myhp {
+	float:left;
+}
+
+#ophp {
+	float:right;
+}
+
+#myhp img, #ophp img {
+	height: 27px;
+	width: 21px;
+}
+
+#byme {
+	float:right;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	margin-right: 1px;
+}
+
+#playagain img {
+	width: 70%;
+}
+
+div#page {
+	background: url(/img/hp0.png) no-repeat -9999px -9999px;
+}
+div#content {
+	background: url(/img/hp1.png) no-repeat -9999px -9999px;
+}
+div#message_box {
+	background: url(/img/hp2.png) no-repeat -9999px -9999px;
+}
+div#controls {
+	background: url(/img/hp3.png) no-repeat -9999px -9999px;
+}
+input#username {
+	background: url(/img/hp4.png) no-repeat -9999px -9999px;
+}
+input#send {
+	background: url(/img/hp5.png) no-repeat -9999px -9999px;
+}
+div#byme {
+	background: url(/img/hp6.png) no-repeat -9999px -9999px;
+}
