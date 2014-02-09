@@ -1,0 +1,46 @@
+<% include header %>
+
+	  <div class="container">
+        <div class="content">
+			  <form class="form-horizontal" id="registerForm" method='post' action='/register'>
+				  <fieldset>
+					  <legend>Registration</legend>
+					  <div class="control-group">
+						  <label class="control-label" for="input01">Name</label>
+						  <div class="controls">
+							  <input type="text" class="input-xlarge" id="name" name="name" >
+						  </div>
+					  </div>
+
+					  <div class="control-group">
+						  <label class="control-label" for="input01">Email</label>
+						  <div class="controls">
+							  <input type="text" class="input-xlarge" id="email" name="email" >
+						  </div>
+					  </div>
+
+					  <div class="control-group">
+						  <label class="control-label" for="input01">Password</label>
+						  <div class="controls">
+							  <input type="password" class="input-xlarge" id="pwd" name="pwd" >
+						  </div>
+					  </div>
+					  <div class="control-group">
+						  <label class="control-label" for="input01">Confirm Password</label>
+						  <div class="controls">
+							  <input type="password" class="input-xlarge" id="cpwd" name="cpwd" >
+						  </div>
+					  </div>
+
+					  <div class="control-group">
+						  <label class="control-label" for="input01"></label>
+						  <div class="controls">
+							  <button id="signup" class="btn btn-success" >Create Account</button>
+						  </div>
+					  </div>
+				  </fieldset>
+			  </form>
+		  </div>
+	  </div>
+
+<% include footer %>

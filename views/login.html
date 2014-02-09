@@ -1,0 +1,36 @@
+<% include header %>
+
+
+
+		<div class="container">
+			<div class="content">
+				<form class="form-horizontal" id="login" method='post' action='/login'>
+					<fieldset>
+						<legend>Login</legend>
+						<div class="control-group">
+							<label class="control-label" for="input01">Username</label>
+							<div class="controls">
+								<input type="text" class="input-xlarge" id="user_name" name="user_name" rel="popover" data-content="Enter your username." data-original-title="Full Name">
+							</div>
+						</div>
+
+						<div class="control-group">
+							<label class="control-label" for="input01">Password</label>
+							<div class="controls">
+								<input type="password" class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="input01"></label>
+							<div class="controls">
+								<button id="signup" class="btn btn-success" rel="tooltip" title="first tooltip">Login</button>
+								- or -
+								<a href="/Register" class="btn btn-primary">Sign-up</a>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+<% include footer %>

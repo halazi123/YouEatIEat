@@ -1,0 +1,20 @@
+<% include header %>
+
+<div id="content">
+	<div id="players">
+		<div id="user" >You are <%= username %>, Your hp: <div id="myhp">3</div></div>
+		<div id="op" >You opponent is <%= opname %>, <%= opname %>'s hp: <div id="ophp">3</div></div>
+	</div>
+	<br>
+	<div id="play_buttons" >
+		<div id="content" style="width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 5px #6495ED; border-radius:20px; overflow-y: scroll;">			
+		</div>
+		<a class="moves" id="youeat" href=""> You Eat </a>
+		<a class="moves" id="ieat" href=""> I Eat </a>
+		<a class="moves" id="hamburger" href=""> Hamburger </a>
+		<a class="moves" id="dogpoop" href=""> Dog Poop </a>
+	</div>
+</div>
+
+
+<% include footer %>
